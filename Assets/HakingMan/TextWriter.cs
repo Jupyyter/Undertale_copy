@@ -8,7 +8,7 @@ using System.Text.RegularExpressions;
 public class TextWriter : MonoBehaviour
 {
     private float delay = .05f;
-    private string text;
+    public string text;
     private string currentText = "";
     private AudioSource voice;
     private Regex regex;
@@ -16,7 +16,6 @@ public class TextWriter : MonoBehaviour
     void Awake()
     {
         //this.regex = new Regex("^[a-zA-Z0-9]*$");
-        text = GetComponent<TextMeshPro>().text;
         voice = GetComponent<AudioSource>();
         //StartCoroutine(ShowText());
     }

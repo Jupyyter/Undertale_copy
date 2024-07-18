@@ -279,6 +279,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 350a417a6a74e134e9d08d0ed88afca6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  text: 
 --- !u!114 &65739435
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -446,6 +447,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 350a417a6a74e134e9d08d0ed88afca6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  text: 
 --- !u!114 &121668356
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -653,6 +655,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 350a417a6a74e134e9d08d0ed88afca6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  text: 
 --- !u!114 &159191323
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1147,6 +1150,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 350a417a6a74e134e9d08d0ed88afca6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  text: 
 --- !u!114 &307530836
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1491,6 +1495,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 350a417a6a74e134e9d08d0ed88afca6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  text: 
 --- !u!114 &414840986
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2253,6 +2258,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 350a417a6a74e134e9d08d0ed88afca6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  text: 
 --- !u!114 &815194426
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2439,10 +2445,9 @@ MonoBehaviour:
   - actName: check
     actText: John Cena - ATK bing chilling DEF bing chilling. He is chinese.
   - actName: eat ice cream
-    actText: You eat the ice cream. John Cena seems to like watching you while eating
-      the ice cream.
-  - actName: 'bark '
-    actText: You start barking at John Cena.
+    actText: You eat  ice cream. John Cena smiles.
+  - actName: 'be happy '
+    actText: you are happier now
   - actName: 'Bing Chilling '
     actText: 'Bing Chilling '
   actsMenu: []
@@ -2805,6 +2810,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 350a417a6a74e134e9d08d0ed88afca6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  text: 
 --- !u!114 &1112051158
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3180,6 +3186,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 350a417a6a74e134e9d08d0ed88afca6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  text: 
 --- !u!114 &1286598316
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3347,6 +3354,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 350a417a6a74e134e9d08d0ed88afca6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  text: 
 --- !u!114 &1335285910
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3734,6 +3742,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 350a417a6a74e134e9d08d0ed88afca6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  text: 
 --- !u!114 &1551762651
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3919,21 +3928,21 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   allItems:
-  - name: pretzel (covrig)
+  - name: pretzel
     HP: 10
-  - name: pretzel (covrig)
+  - name: pretzel
     HP: 10
   - name: sliced bread
     HP: 20
-  - name: a french frie
+  - name: french
     HP: 50
   - name: chips
     HP: 21
-  - name: a dog
+  - name: noodles
     HP: 19
-  - name: a cat
+  - name: german
     HP: 16
-  - name: the slave
+  - name: ice cream
     HP: 100
   itemsMenu: []
   page: 0
@@ -4274,6 +4283,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 350a417a6a74e134e9d08d0ed88afca6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  text: 
 --- !u!114 &1751784832
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4701,6 +4711,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 350a417a6a74e134e9d08d0ed88afca6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  text: 
 --- !u!114 &1874520953
 MonoBehaviour:
   m_ObjectHideFlags: 0

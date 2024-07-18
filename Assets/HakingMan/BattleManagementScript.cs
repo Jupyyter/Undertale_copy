@@ -45,7 +45,7 @@ public class BattleManagementScript : MonoBehaviour
         {
             player.GetComponent<Player>().takeDmg(7);
         }
-        if (Input.GetKeyDown("x") && !actMenu.GetComponent<Acts>().actText && currentContext != Context.EnemyTurn && currentContext != Context.PlayerTurn)
+        if (Input.GetKeyDown("x") && !actMenu.GetComponent<Acts>().actText && currentContext != Context.EnemyTurn && currentContext != Context.PlayerTurn&&!spareMenu.GetComponent<Acts>().actText)
         {//unselect a button
             currentContext = Context.MainMenu;
         }
@@ -53,9 +53,10 @@ public class BattleManagementScript : MonoBehaviour
         switch (currentContext)
         {
             case (Context.MainMenu)://default (if MainMenu, choose fight act item mercy)
+            mainMenu.transform.GetChild(0).GetComponent<TextWriter>().text = ":):):):):):):):):):):):):):):):):):):):):):):):):):):):):):):):):):):):):):):):):):):):):):):):):):):):):):):):):):):):):):):):):):):):):):):):):):):):):):):):):):):):):):):):):):):):):):):):):):):):):):):):):):):):):):):):):)";
                 if (!bingChilling.GetComponent<enemy>().alive)
                 {
-                    mainMenu.transform.GetChild(0).GetComponent<TextMeshPro>().text = "YOU WON :)";
+                    mainMenu.transform.GetChild(0).GetComponent<TextWriter>().text = "YOU WON :)";
                     currentContext = Context.MainMenu;
                 }
                 else if (Input.GetKeyDown("z") && ready)

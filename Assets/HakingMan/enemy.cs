@@ -38,12 +38,7 @@ public class enemy : MonoBehaviour
             sprt.sprite = deadSprite;
             alive = false;
         }
-        else if (HPLeft < initialHP / 3)
-        {
-            phase1 = false;
-            phase2 = true;
-        }
-        else if (HPLeft < initialHP * 2 / 3)
+        else if (HPLeft < initialHP /2)
         {
             phase0 = false;
             phase1 = true;
