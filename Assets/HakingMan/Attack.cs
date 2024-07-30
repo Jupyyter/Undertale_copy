@@ -17,7 +17,7 @@ public class Attack : MonoBehaviour
         {
             bingChilling.healthbar.gameObject.SetActive(true);
             battleManager.AttackFinished=true;
-            bingChilling.takeDmg(9000);
+            bingChilling.takeDmg(18000);
             this.gameObject.SetActive(false);
         }
     }
